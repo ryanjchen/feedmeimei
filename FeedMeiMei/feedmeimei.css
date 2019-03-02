@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "Brusher";
+    src: url("Brusher.ttf");
+}
+body {
+    background-color:#ff9898;
+}
+.title{
+    padding:10px 0 0 0;
+    text-align: center;
+    vertical-align:middle;
+    font-family: Brusher;
+    color:#ffffff;
+    font-size:100px;
+}
+.title img{
+    height:80px;
+}
+@media screen and (max-width:700px) {
+    .title{
+        font-size:65px;
+    }
+    .title img{
+        height:50px;
+    }
+}
+
+
+.centered {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.home{
+    background-image:url("images/icecream.JPG");
+    background-size: cover;
+    padding-top:500px;
+    padding-bottom:500px;
+    padding-left:100px;
+    padding-right:100px;
+    background-position:50% 60%;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+.mxwdth {
+    height:1000px;
+}
+.over-title {
+    position:absolute;
+    float:right;
+    top:22%;
+    left:10%;
+    color:#000000;
+    font-size:75px;
+    font-family:Brusher;
+}
+@media screen and (max-width:700px) {
+    .over-title{
+        font-size:60px;
+    }
+}
+.about{
+    font-family:Raleway;
+    text-align:center;
+    font-size:25px;
+}    
+.about p{
+    font-size:50px;
+}
+.imgpad {
+    padding:0 0 0 0;
+}
+.page-wrapper{
+    background-color:#ffffff;
+}
+.about .col{
+    margin-left:20%;
+    margin-right:20%;
+}
